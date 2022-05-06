@@ -102,10 +102,10 @@
                 'attribution': 'Map tiles designed by Azzahra Nurmutmainnah'
             });
 
-            map.addSource('Res_Permits-tiles', {
+            map.addSource('BRes_Permits-tiles', {
                 'type': 'raster',
                 'tiles': [
-                    'assets/Res_Permits/{z}/{x}/{y}.png'
+                    'assets/BRes_Permits/{z}/{x}/{y}.png'
                 ],
                 'tileSize': 256,
                 'attribution': 'Map tiles designed by Azzahra Nurmutmainnah'
@@ -139,7 +139,7 @@
             });
 
             map.addLayer({
-                'id': 'Res_Permits',
+                'id': 'BRes_Permits',
                 'type': 'raster',
                 'layout': {
                     'visibility': 'none'
@@ -162,12 +162,12 @@
         // After the last frame rendered before the map enters an "idle" state.
         map.on('idle', () => {
             // If these two layers were not added to the map, abort
-            if (!map.getLayer('Basemap') || !map.getLayer('Permits') || !map.getLayer('Res_Permits') || !map.getLayer('UW')) {
+            if (!map.getLayer('Basemap') || !map.getLayer('Permits') || !map.getLayer('BRes_Permits') || !map.getLayer('UW')) {
                 return;
             }
 
             // Enumerate ids of the layers.
-            const toggleableLayerIds = ['Basemap', 'Permits', 'Res_Permits', 'UW'];
+            const toggleableLayerIds = ['Basemap', 'Permits', 'BRes_Permits', 'UW'];
 
             // Set up the corresponding toggle button for each layer.
             for (const id of toggleableLayerIds) {
