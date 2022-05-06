@@ -24,5 +24,5 @@
 ![Map Image](img/UW.PNG)
 
 - Description of Tile: The theme of this map is UW to match the color of the school 
-- Geographic Area of Focus: Seattle, Washington
+- Area of Focus: Seattle, Washington
 - Zoom Level: 12
