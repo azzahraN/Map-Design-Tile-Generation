@@ -26,3 +26,5 @@
 - Description of Tile: The theme of this map is UW to match the color of the school 
 - Area of Focus: Seattle, Washington
 - Zoom Level: 12
+
+##### I dont know if it's just my computer but when I open my map on chrome the map doesnt fully show up but when I open my map on Microsoft Edge the map fully shows up.
